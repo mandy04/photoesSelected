@@ -1,0 +1,45 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - FLEX (2.2.0)
+  - Masonry (0.5.3)
+  - MBProgressHUD (0.9)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI (= 2.3.1)
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - TPKeyboardAvoiding (1.2.4)
+
+DEPENDENCIES:
+  - BlocksKit (~> 2.2.5)
+  - FLEX (~> 2.2.0)
+  - Masonry (= 0.5.3)
+  - MBProgressHUD (= 0.9)
+  - ReactiveCocoa (= 2.3.1)
+  - TPKeyboardAvoiding (= 1.2.4)
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  FLEX: bc8a4fb887ed5d3cdf7c2f3bd665f7bb1647cc58
+  Masonry: 9f515466afe48632562342a40a1c224071a1a022
+  MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
+  ReactiveCocoa: 3fe9b233ca6db810e86681b5749488564c1179a1
+  TPKeyboardAvoiding: 0a40dfbb0af7c8bdae1dd457496dccfd217d85f6
+
+COCOAPODS: 0.39.0
