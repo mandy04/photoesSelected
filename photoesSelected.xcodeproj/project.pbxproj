@@ -52,9 +52,8 @@
 		E74025101C7C07790027D675 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E74024E11C7C07790027D675 /* UIView+WebCacheOperation.m */; };
 		E74025111C7C07790027D675 /* YLGIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E74024E41C7C07790027D675 /* YLGIFImage.m */; };
 		E74025121C7C07790027D675 /* YLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74024E61C7C07790027D675 /* YLImageView.m */; };
-		E740251B1C7C07DE0027D675 /* GTMStackTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = E74025161C7C07DE0027D675 /* GTMStackTrace.m */; };
-		E740251C1C7C07DE0027D675 /* iConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = E74025191C7C07DE0027D675 /* iConsole.m */; };
-		E740251D1C7C07DE0027D675 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E740251A1C7C07DE0027D675 /* README.md */; };
+		E75153651C7E92DE005866D6 /* GTMStackTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = E75153611C7E92DE005866D6 /* GTMStackTrace.m */; };
+		E75153661C7E92DE005866D6 /* iConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = E75153641C7E92DE005866D6 /* iConsole.m */; };
 		E75D0EC61C7A9F56004E4EC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D0EC51C7A9F56004E4EC9 /* main.m */; };
 		E75D0EC91C7A9F56004E4EC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D0EC81C7A9F56004E4EC9 /* AppDelegate.m */; };
 		E75D0ECC1C7A9F56004E4EC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D0ECB1C7A9F56004E4EC9 /* ViewController.m */; };
@@ -167,11 +166,10 @@
 		E74024E41C7C07790027D675 /* YLGIFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLGIFImage.m; sourceTree = "<group>"; };
 		E74024E51C7C07790027D675 /* YLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLImageView.h; sourceTree = "<group>"; };
 		E74024E61C7C07790027D675 /* YLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLImageView.m; sourceTree = "<group>"; };
-		E74025151C7C07DE0027D675 /* GTMStackTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMStackTrace.h; sourceTree = "<group>"; };
-		E74025161C7C07DE0027D675 /* GTMStackTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStackTrace.m; sourceTree = "<group>"; };
-		E74025181C7C07DE0027D675 /* iConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iConsole.h; sourceTree = "<group>"; };
-		E74025191C7C07DE0027D675 /* iConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iConsole.m; sourceTree = "<group>"; };
-		E740251A1C7C07DE0027D675 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E75153601C7E92DE005866D6 /* GTMStackTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMStackTrace.h; sourceTree = "<group>"; };
+		E75153611C7E92DE005866D6 /* GTMStackTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStackTrace.m; sourceTree = "<group>"; };
+		E75153631C7E92DE005866D6 /* iConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iConsole.h; sourceTree = "<group>"; };
+		E75153641C7E92DE005866D6 /* iConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iConsole.m; sourceTree = "<group>"; };
 		E75D0EC11C7A9F56004E4EC9 /* photoesSelected.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoesSelected.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75D0EC51C7A9F56004E4EC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E75D0EC71C7A9F56004E4EC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -259,7 +257,7 @@
 		E74024971C7C07790027D675 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				E74025131C7C07DE0027D675 /* iConsole */,
+				E751535E1C7E92DE005866D6 /* iConsole */,
 				E74024981C7C07790027D675 /* MJPhotoBrowser */,
 				E74024AC1C7C07790027D675 /* QBImagePickerController */,
 				E74024C21C7C07790027D675 /* SDWebImage */,
@@ -371,30 +369,29 @@
 			path = YLGIFImage;
 			sourceTree = "<group>";
 		};
-		E74025131C7C07DE0027D675 /* iConsole */ = {
+		E751535E1C7E92DE005866D6 /* iConsole */ = {
 			isa = PBXGroup;
 			children = (
-				E74025141C7C07DE0027D675 /* GTM */,
-				E74025171C7C07DE0027D675 /* iConsole */,
-				E740251A1C7C07DE0027D675 /* README.md */,
+				E751535F1C7E92DE005866D6 /* GTM */,
+				E75153621C7E92DE005866D6 /* iConsole */,
 			);
 			path = iConsole;
 			sourceTree = "<group>";
 		};
-		E74025141C7C07DE0027D675 /* GTM */ = {
+		E751535F1C7E92DE005866D6 /* GTM */ = {
 			isa = PBXGroup;
 			children = (
-				E74025151C7C07DE0027D675 /* GTMStackTrace.h */,
-				E74025161C7C07DE0027D675 /* GTMStackTrace.m */,
+				E75153601C7E92DE005866D6 /* GTMStackTrace.h */,
+				E75153611C7E92DE005866D6 /* GTMStackTrace.m */,
 			);
 			path = GTM;
 			sourceTree = "<group>";
 		};
-		E74025171C7C07DE0027D675 /* iConsole */ = {
+		E75153621C7E92DE005866D6 /* iConsole */ = {
 			isa = PBXGroup;
 			children = (
-				E74025181C7C07DE0027D675 /* iConsole.h */,
-				E74025191C7C07DE0027D675 /* iConsole.m */,
+				E75153631C7E92DE005866D6 /* iConsole.h */,
+				E75153641C7E92DE005866D6 /* iConsole.m */,
 			);
 			path = iConsole;
 			sourceTree = "<group>";
@@ -628,18 +625,17 @@
 				E74024F21C7C07790027D675 /* MJPhotoProgressView.m in Sources */,
 				E74024E71C7C07790027D675 /* NSObject+Common.m in Sources */,
 				E74024F61C7C07790027D675 /* UIImageView+MJWebCache.m in Sources */,
-				E740251B1C7C07DE0027D675 /* GTMStackTrace.m in Sources */,
+				E75153651C7E92DE005866D6 /* GTMStackTrace.m in Sources */,
 				E74025101C7C07790027D675 /* UIView+WebCacheOperation.m in Sources */,
 				E74024F51C7C07790027D675 /* SDWebImageManager+MJ.m in Sources */,
 				E74025071C7C07790027D675 /* SDWebImageDownloaderOperation.m in Sources */,
 				E75D0ECC1C7A9F56004E4EC9 /* ViewController.m in Sources */,
-				E740251D1C7C07DE0027D675 /* README.md in Sources */,
 				E74024F71C7C07790027D675 /* QBAssetsCollectionCheckmarkView.m in Sources */,
 				E74024FE1C7C07790027D675 /* QBImagePickerController.m in Sources */,
 				E74024FC1C7C07790027D675 /* QBAssetsCollectionViewController.m in Sources */,
 				E74024FD1C7C07790027D675 /* QBAssetsCollectionViewLayout.m in Sources */,
 				E75D0EC91C7A9F56004E4EC9 /* AppDelegate.m in Sources */,
-				E740251C1C7C07DE0027D675 /* iConsole.m in Sources */,
+				E75153661C7E92DE005866D6 /* iConsole.m in Sources */,
 				E75D0F101C7AAA4B004E4EC9 /* Helper.m in Sources */,
 				E75D0F191C7AE3ED004E4EC9 /* TweetSendImageCCell.m in Sources */,
 				E75D0F161C7AE24F004E4EC9 /* Tweet.m in Sources */,
