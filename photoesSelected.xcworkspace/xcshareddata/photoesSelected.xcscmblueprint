@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8D0C5CBBF895B1D52FEC020C1770E361627041B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FA2AE41F6F75C3086020C2F0E12751EB7600899F" : 0,
+    "8D0C5CBBF895B1D52FEC020C1770E361627041B6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "94B05241-0F0B-44DB-BC2E-B4C240B46927",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FA2AE41F6F75C3086020C2F0E12751EB7600899F" : "photoesSelected\/photoesSelected\/Vendor\/iConsole\/",
+    "8D0C5CBBF895B1D52FEC020C1770E361627041B6" : "photoesSelected\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "photoesSelected",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "photoesSelected.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mandy04\/photoesSelected.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D0C5CBBF895B1D52FEC020C1770E361627041B6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.100:8044\/fuxiaofeng\/iConsole.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FA2AE41F6F75C3086020C2F0E12751EB7600899F"
+    }
+  ]
+}
